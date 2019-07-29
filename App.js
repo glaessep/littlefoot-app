@@ -28,6 +28,7 @@ import { useScreens } from 'react-native-screens';
 
 useScreens();
 
+
 const App = () => {
   return (
     <Fragment>
