@@ -1,4 +1,4 @@
-package com.lf1;
+package com.littlefoot;
 
 import android.app.Application;
 import android.util.Log;

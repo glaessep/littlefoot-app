@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "LF1-tvOS.app"
-               BlueprintName = "LF1-tvOS"
-               ReferencedContainer = "container:LF1.xcodeproj">
+               BuildableName = "Littlefoot-tvOS.app"
+               BlueprintName = "Littlefoot-tvOS"
+               ReferencedContainer = "container:Littlefoot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "LF1-tvOSTests.xctest"
-               BlueprintName = "LF1-tvOSTests"
-               ReferencedContainer = "container:LF1.xcodeproj">
+               BuildableName = "Littlefoot-tvOSTests.xctest"
+               BlueprintName = "Littlefoot-tvOSTests"
+               ReferencedContainer = "container:Littlefoot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "LF1-tvOSTests.xctest"
-               BlueprintName = "LF1-tvOSTests"
-               ReferencedContainer = "container:LF1.xcodeproj">
+               BuildableName = "Littlefoot-tvOSTests.xctest"
+               BlueprintName = "Littlefoot-tvOSTests"
+               ReferencedContainer = "container:Littlefoot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "LF1-tvOS.app"
-            BlueprintName = "LF1-tvOS"
-            ReferencedContainer = "container:LF1.xcodeproj">
+            BuildableName = "Littlefoot-tvOS.app"
+            BlueprintName = "Littlefoot-tvOS"
+            ReferencedContainer = "container:Littlefoot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "LF1-tvOS.app"
-            BlueprintName = "LF1-tvOS"
-            ReferencedContainer = "container:LF1.xcodeproj">
+            BuildableName = "Littlefoot-tvOS.app"
+            BlueprintName = "Littlefoot-tvOS"
+            ReferencedContainer = "container:Littlefoot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "LF1-tvOS.app"
-            BlueprintName = "LF1-tvOS"
-            ReferencedContainer = "container:LF1.xcodeproj">
+            BuildableName = "Littlefoot-tvOS.app"
+            BlueprintName = "Littlefoot-tvOS"
+            ReferencedContainer = "container:Littlefoot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
