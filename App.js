@@ -1,39 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+import { createAppContainer } from 'react-navigation';
+import { BottomTabNavigator } from './app/components'
 
-import React, { Fragment } from 'react';
-
-import { View, Text } from "react-native";
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
-
-class HomeScreen extends React.Component {
-  render() {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Home!</Text>
-      </View>
-    );
-  }
-}
-
-class SettingsScreen extends React.Component {
-  render() {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Settings!</Text>
-      </View>
-    );
-  }
-}
-
-const TabNavigator = createBottomTabNavigator({
-  Home: HomeScreen,
-  Settings: SettingsScreen,
-});
-
-export default createAppContainer(TabNavigator);
+export default createAppContainer(BottomTabNavigator);
