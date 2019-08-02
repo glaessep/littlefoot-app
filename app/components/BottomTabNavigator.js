@@ -12,11 +12,26 @@ import {
   HomeScreen, FriendsScreen, SettingsScreen
 } from '../screens'
 
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
+
+const HomeStack = createStackNavigator({ HomeScreen }, {
+  // This applies to the parent navigator
+  navigationOptions: {
+    tabBarLabel: 'Home',
+  },
+  // This applies to child routes
+  defaultNavigationOptions: {
+    title: 'Littlefoot',
+    headerStyle: {
+      backgroundColor: '#e83e8c',
+    },
+    headerTintColor: '#fff',
+  }
+});
 
 const BottomTabNavigator = createBottomTabNavigator(
   {
-    Steps: HomeScreen,
+    Steps: HomeStack,
     Friends: FriendsScreen,
     Settings: SettingsScreen,
   },

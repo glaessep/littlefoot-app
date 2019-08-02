@@ -1,8 +1,19 @@
 import React, { Fragment } from 'react';
-import { View, Text } from "react-native";
+import { View, Text, StatusBar } from "react-native";
 
 
 export default class SettingsScreen extends React.Component {
+  componentDidMount() {
+    this._navListener = this.props.navigation.addListener('didFocus', () => {
+      StatusBar.setBarStyle('dark-content');
+      //isAndroid && StatusBar.setBackgroundColor('#6a51ae');
+    });
+  }
+
+  componentWillUnmount() {
+    this._navListener.remove();
+  }
+
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
