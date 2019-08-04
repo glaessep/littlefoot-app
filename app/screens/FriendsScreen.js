@@ -6,7 +6,6 @@ export default class FriendsScreen extends React.Component {
   componentDidMount() {
     this._navListener = this.props.navigation.addListener('didFocus', () => {
       StatusBar.setBarStyle('dark-content');
-      //isAndroid && StatusBar.setBackgroundColor('#6a51ae');
     });
   }
 

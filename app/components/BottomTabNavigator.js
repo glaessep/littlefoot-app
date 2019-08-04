@@ -9,21 +9,21 @@ import React, { Fragment } from 'react';
 import { Image } from "react-native";
 
 import {
-  HomeScreen, FriendsScreen, SettingsScreen
+  StepsFeedScreen, FriendsScreen, SettingsScreen
 } from '../screens'
 
 import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
 
-const HomeStack = createStackNavigator({ HomeScreen }, {
+const StepsStackNavigator = createStackNavigator({ StepsFeedScreen }, {
   // This applies to the parent navigator
   navigationOptions: {
-    tabBarLabel: 'Home',
+    tabBarLabel: 'Steps',
   },
   // This applies to child routes
   defaultNavigationOptions: {
     title: 'Littlefoot',
     headerStyle: {
-      backgroundColor: '#e83e8c',
+      backgroundColor: '#FF117E',
     },
     headerTintColor: '#fff',
   }
@@ -31,7 +31,7 @@ const HomeStack = createStackNavigator({ HomeScreen }, {
 
 const BottomTabNavigator = createBottomTabNavigator(
   {
-    Steps: HomeStack,
+    Steps: StepsStackNavigator,
     Friends: FriendsScreen,
     Settings: SettingsScreen,
   },
@@ -49,7 +49,7 @@ const BottomTabNavigator = createBottomTabNavigator(
       },
     }),
     tabBarOptions: {
-      activeTintColor: '#e83e8c',
+      activeTintColor: '#FF117E',
       inactiveTintColor: 'grey',
     },
   }
