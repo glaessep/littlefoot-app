@@ -23,7 +23,7 @@ const StepsStackNavigator = createStackNavigator({ StepsFeedScreen }, {
   defaultNavigationOptions: {
     title: 'Littlefoot',
     headerStyle: {
-      backgroundColor: '#FF117E',
+      backgroundColor: '#9B479F',
     },
     headerTintColor: '#fff',
   }
@@ -49,7 +49,7 @@ const BottomTabNavigator = createBottomTabNavigator(
       },
     }),
     tabBarOptions: {
-      activeTintColor: '#FF117E',
+      activeTintColor: '#9B479F',
       inactiveTintColor: 'grey',
     },
   }

@@ -6,7 +6,7 @@ export default class StepsFeedScreen extends React.Component {
   componentDidMount() {
     this._navListener = this.props.navigation.addListener('didFocus', () => {
       StatusBar.setBarStyle('light-content');
-      Platform.OS === 'android' && StatusBar.setBackgroundColor('#FF117E');
+      Platform.OS === 'android' && StatusBar.setBackgroundColor('#9B479F');
     });
   }
 
@@ -17,7 +17,7 @@ export default class StepsFeedScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <StatusBar barStyle="light-content" backgroundColor="#FF117E" />
+        <StatusBar barStyle="light-content" backgroundColor="#9B479F" />
         <Text>Here you can see all the small </Text>
         <Text>and big steps of your child </Text>
       </View>
