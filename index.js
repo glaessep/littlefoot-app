@@ -3,13 +3,14 @@
  */
 
 import { AppRegistry } from 'react-native';
-//import App from './App';
 import { name as appName } from './app.json';
+import { useScreens } from 'react-native-screens'
+useScreens();
+
 import { createAppContainer } from 'react-navigation';
-//import { useScreens } from 'react-native-screens';
-import { BottomTabNavigator } from './app/components'
+import { MainRouter } from './app/routes';
 
-//useScreens();
 
-const App = createAppContainer(BottomTabNavigator);
+
+const App = createAppContainer(MainRouter);
 AppRegistry.registerComponent(appName, () => App);

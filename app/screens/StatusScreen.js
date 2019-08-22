@@ -2,11 +2,17 @@ import React, { Fragment } from 'react';
 import { View, Text, StatusBar } from "react-native";
 
 
-export default class StepsFeedScreen extends React.Component {
+export default class FriendsScreen extends React.Component {
+  static navigationOptions = ({ navigation }) => {
+    return {
+      title: 'Status',
+    };
+  };
+
+
   componentDidMount() {
     this._navListener = this.props.navigation.addListener('didFocus', () => {
-      StatusBar.setBarStyle('light-content');
-      Platform.OS === 'android' && StatusBar.setBackgroundColor('#9B479F');
+      StatusBar.setBarStyle('dark-content');
     });
   }
 
@@ -17,9 +23,7 @@ export default class StepsFeedScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <StatusBar barStyle="light-content" backgroundColor="#9B479F" />
-        <Text>Here you can see all the small </Text>
-        <Text>and big steps of your child </Text>
+        <Text>Friends!</Text>
       </View>
     );
   }
